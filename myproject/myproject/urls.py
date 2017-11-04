@@ -14,5 +14,5 @@ urlpatterns = [
             success_url='/'
     )),
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('todos.urls')),
+    url(r'^', include('signup.urls')),
 ]
