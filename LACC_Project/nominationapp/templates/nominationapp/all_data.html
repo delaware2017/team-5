@@ -1,0 +1,8 @@
+{% if not object_list %}
+<p> You have no Nominations. </p>
+{% else %}
+<ul class="list-group">
+    {%  for obj in object_list %}
+    <li class="list-group-item">
+        obj.firstName
+    </li>

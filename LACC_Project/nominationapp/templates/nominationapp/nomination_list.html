@@ -1,0 +1,11 @@
+
+<ul>
+{% for nomination in object_list %}
+    <li> {{nomination.studentFirstName}}</li>
+    <li> {{nomination.studentLastName}}</li>
+    <li> {{nomination.GPA}}</li>
+    <li> {{nomination.SATScore}}</li>
+{% empty %}
+    <li>No Nominations yet.</li>
+{% endfor %}
+</ul>
