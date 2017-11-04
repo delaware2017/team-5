@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 
+
+
 <html lang="en">
+
 <head>
+
   
 
+
+
 Pick an account type:</br>
+
   <!--[if lt IE 9]>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+
   <![endif]-->
+
 </head>
+
+
 
 <body>
 
-<form> 
+
+
+<form action = "hello.php" method = "post"> 
+
 Admin: <input type = "radio" name = "account" value = "admin"></br>
+
 Nominator: <input type = "radio" = name = "account" value = "nom"></br>
+
 Student: <input type = "radio" name = "account" value = "stu"></br>
+
 Grader:  <input type = "radio" name = "account" value = "grader"></br>
 
-Enter username <input type = "text"></br>
-Enter password: <input type = "text"></br>
 
-<button type="button">Submit</button></br>
+
+Enter username <input type = "text" name = "username"></br>
+
+Enter password: <input type = "text" name = "password"></br>
+
+
+
+<input type = "submit" value = "Submit" </br>
+
   </form>
+  
+
+
 </body>
+
 </html>
